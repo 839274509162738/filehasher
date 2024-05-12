@@ -75,7 +75,7 @@ int main(int argc, char *argv[]) {
     return 1;
   }
 
-  printf("Hash of file %s:\n", filename);
+  printf("Hash of file %s: ", filename);
   for (unsigned int i = 0; i < hash_len; i++) {
     printf("%02x", hash[i]);
   }
