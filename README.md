@@ -14,6 +14,7 @@ gcc -Wall -Wextra -Werror -pedantic -std=c99 -o hash hash.c -lcrypto
 ```
 
 2. Run "./hash.exe" followed by "-f" followed by the filename
+   (as you can assume, it works with all files, not just text like in the example)
 
 ```bash
 ./hash -f example.txt
